@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <Configurations>Checked;Debug;Debug-static;Demo;Driver;DriverDemo;Lite;Professional;Release;Release-static;Ultimate</Configurations>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\bin\32\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;RUNTIME;NETFRAMEWORK</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\bin\32\Release\</OutputPath>
+    <DefineConstants>TRACE;RUNTIME;NETFRAMEWORK</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <OutputPath>..\..\bin\64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;RUNTIME;NETFRAMEWORK</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>..\..\bin\64\Release\</OutputPath>
+    <DefineConstants>TRACE;RUNTIME;NETFRAMEWORK</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Security" />
+  </ItemGroup>
+  <ItemGroup Label="Compile items now included by globbing that were not in the original project file">
+    <Compile Remove="Tests\UnitTestProject\UnitTestCombine.cs" />
+    <Compile Remove="Tests\UnitTestProject\UnitTest1.cs" />
+    <Compile Remove="Tests\UnitTestProject\RefVm\VmStreamWrapper.cs" />
+    <Compile Remove="Tests\UnitTestProject\RefVm\VmPosParser.cs" />
+    <Compile Remove="Tests\UnitTestProject\RefVm\VmMethodHeader.cs" />
+    <Compile Remove="Tests\UnitTestProject\RefVm\VmInstrCodesDb.cs" />
+    <Compile Remove="Tests\UnitTestProject\RefVm\VmExecutor.cs" />
+    <Compile Remove="Tests\UnitTestProject\RefVm\VariantFactory.cs" />
+    <Compile Remove="Tests\UnitTestProject\RefVm\VariantBase.cs" />
+    <Compile Remove="Tests\UnitTestProject\RefVm\TypeCompatibility.cs" />
+    <Compile Remove="Tests\UnitTestProject\RefVm\StringDecryptor.cs" />
+    <Compile Remove="Tests\UnitTestProject\RefVm\SimpleTypeHelper.cs" />
+    <Compile Remove="Tests\UnitTestProject\RefVm\SdTemplateStuff.cs" />
+    <Compile Remove="Tests\UnitTestProject\RefVm\SdMetadataTokens.cs" />
+    <Compile Remove="Tests\UnitTestProject\RefVm\MyCollection.cs" />
+    <Compile Remove="Tests\UnitTestProject\RefVm\MyBufferReader.cs" />
+    <Compile Remove="Tests\UnitTestProject\RefVm\MyBuffer.cs" />
+    <Compile Remove="Tests\UnitTestProject\RefVm\ElementedTypeHelper.cs" />
+    <Compile Remove="Tests\UnitTestProject\Properties\AssemblyInfo.cs" />
+    <Compile Remove="Tests\UnitTestProject\obj\Release\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
+    <Compile Remove="Tests\UnitTestProject\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
+    <Compile Remove="Tests\UnitTestProject\MsilToVmTestCompiler.cs" />
+    <Compile Remove="Tests\UnitTestProject\LoaderTests.cs" />
+    <Compile Remove="Tests\UnitTestProject\LicensingManagerTests.cs" />
+  </ItemGroup>
+</Project>

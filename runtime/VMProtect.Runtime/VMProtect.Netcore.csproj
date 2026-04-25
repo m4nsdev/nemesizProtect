@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFrameworkIdentifier>.NETStandard</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v2.1</TargetFrameworkVersion>
+    <RuntimeIdentifier></RuntimeIdentifier>
+    <Platforms>AnyCPU;x64</Platforms>	
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net20' Or '$(TargetFramework)' == 'net40'">
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU' Or '$(Configuration)|$(Platform)'=='Release|Any CPU'">
+    <Optimize>true</Optimize>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>$(DefineConstants);TRACE;RUNTIME</DefineConstants>
+    <OutputPath>..\..\bin\32\Release\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Optimize>true</Optimize>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>$(DefineConstants);TRACE;RUNTIME</DefineConstants>
+    <OutputPath>..\..\bin\64\Release\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU' Or '$(Configuration)|$(Platform)'=='Debug|Any CPU'">
+    <Optimize>true</Optimize>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>$(DefineConstants);TRACE;DEBUG;RUNTIME</DefineConstants>
+    <OutputPath>..\..\bin\32\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Optimize>true</Optimize>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>$(DefineConstants);TRACE;DEBUG;RUNTIME</DefineConstants>
+    <OutputPath>..\..\bin\64\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <!-- Catch-all for custom configurations to ensure TargetFramework is defined -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' != 'Debug|AnyCPU' AND '$(Configuration)|$(Platform)' != 'Debug|Any CPU' AND '$(Configuration)|$(Platform)' != 'Debug|x64' AND '$(Configuration)|$(Platform)' != 'Release|AnyCPU' AND '$(Configuration)|$(Platform)' != 'Release|Any CPU' AND '$(Configuration)|$(Platform)' != 'Release|x64'">
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFrameworkIdentifier>.NETStandard</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v2.1</TargetFrameworkVersion>
+    <RuntimeIdentifier></RuntimeIdentifier>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>$(DefineConstants);TRACE;RUNTIME</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Tests\**" />
+    <Compile Remove="VMProtect.Netcore\**" />
+    <Compile Remove="VMProtect.Runtime.Netstandard\**" />
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Remove="Tests\**" />
+    <EmbeddedResource Remove="VMProtect.Netcore\**" />
+    <EmbeddedResource Remove="VMProtect.Runtime.Netstandard\**" />
+    <None Remove="Tests\**" />
+    <None Remove="VMProtect.Netcore\**" />
+    <None Remove="VMProtect.Runtime.Netstandard\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>

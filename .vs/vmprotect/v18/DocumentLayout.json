@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\.github\\upgrades\\tasks.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\upgrades\\tasks.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\.github\\upgrades\\plan.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\upgrades\\plan.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\.github\\upgrades\\assessment.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\upgrades\\assessment.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{946D07D4-1AE4-4FC3-9A8C-563B5F64B0B6}|runtime\\VMProtect.Runtime\\VMProtect.Runtime.csproj|c:\\users\\m4nst\\documents\\vmprotect-3.5.1-master\\runtime\\vmprotect.runtime\\vmprotect.runtime.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{946D07D4-1AE4-4FC3-9A8C-563B5F64B0B6}|runtime\\VMProtect.Runtime\\VMProtect.Runtime.csproj|solutionrelative:runtime\\vmprotect.runtime\\vmprotect.runtime.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85318BED-28D8-4B31-A7BA-9ED7882D11FC}|runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\UnitTestProject.csproj|c:\\users\\m4nst\\documents\\vmprotect-3.5.1-master\\runtime\\vmprotect.runtime\\tests\\unittestproject\\unittestproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{85318BED-28D8-4B31-A7BA-9ED7882D11FC}|runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\UnitTestProject.csproj|solutionrelative:runtime\\vmprotect.runtime\\tests\\unittestproject\\unittestproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{946D07D4-1AE4-4FC3-9A8C-563B5F64B0B5}|sdk\\VMProtect.SDK\\VMProtect.SDK.csproj|c:\\users\\m4nst\\documents\\vmprotect-3.5.1-master\\sdk\\vmprotect.sdk\\vmprotect.sdk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{946D07D4-1AE4-4FC3-9A8C-563B5F64B0B5}|sdk\\VMProtect.SDK\\VMProtect.SDK.csproj|solutionrelative:sdk\\vmprotect.sdk\\vmprotect.sdk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADE08C2-D14E-4FE6-BF66-95EE29C953C6}|utils\\ipn_tool\\ipn_tool.csproj|c:\\users\\m4nst\\documents\\vmprotect-3.5.1-master\\utils\\ipn_tool\\ipn_tool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4ADE08C2-D14E-4FE6-BF66-95EE29C953C6}|utils\\ipn_tool\\ipn_tool.csproj|solutionrelative:utils\\ipn_tool\\ipn_tool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67211B54-9FD8-4EFB-A4B4-D3BB61AC3B3C}|runtime\\VMProtect.Runtime\\VMProtect.Netcore.csproj|c:\\users\\m4nst\\documents\\vmprotect-3.5.1-master\\runtime\\vmprotect.runtime\\vmprotect.netcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{67211B54-9FD8-4EFB-A4B4-D3BB61AC3B3C}|runtime\\VMProtect.Runtime\\VMProtect.Netcore.csproj|solutionrelative:runtime\\vmprotect.runtime\\vmprotect.netcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85318BED-28D8-4B31-A7BA-9ED7882D11FC}|runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\UnitTestProject.csproj|c:\\users\\m4nst\\documents\\vmprotect-3.5.1-master\\runtime\\vmprotect.runtime\\hardwareid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85318BED-28D8-4B31-A7BA-9ED7882D11FC}|runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\UnitTestProject.csproj|solutionrelative:runtime\\vmprotect.runtime\\hardwareid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85318BED-28D8-4B31-A7BA-9ED7882D11FC}|runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\UnitTestProject.csproj|c:\\users\\m4nst\\documents\\vmprotect-3.5.1-master\\runtime\\vmprotect.runtime\\licensingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85318BED-28D8-4B31-A7BA-9ED7882D11FC}|runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\UnitTestProject.csproj|solutionrelative:runtime\\vmprotect.runtime\\licensingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85318BED-28D8-4B31-A7BA-9ED7882D11FC}|runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\UnitTestProject.csproj|c:\\users\\m4nst\\documents\\vmprotect-3.5.1-master\\runtime\\vmprotect.runtime\\tests\\unittestproject\\licensingmanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85318BED-28D8-4B31-A7BA-9ED7882D11FC}|runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\UnitTestProject.csproj|solutionrelative:runtime\\vmprotect.runtime\\tests\\unittestproject\\licensingmanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85318BED-28D8-4B31-A7BA-9ED7882D11FC}|runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\UnitTestProject.csproj|c:\\users\\m4nst\\documents\\vmprotect-3.5.1-master\\runtime\\vmprotect.runtime\\tests\\unittestproject\\refvm\\vmexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85318BED-28D8-4B31-A7BA-9ED7882D11FC}|runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\UnitTestProject.csproj|solutionrelative:runtime\\vmprotect.runtime\\tests\\unittestproject\\refvm\\vmexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\vcproj\\build-release.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vcproj\\build-release.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3F704A-25EC-4A48-907D-DF78EA2CFC47}|vcproj\\core.vcxproj|C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\core\\core.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C3F704A-25EC-4A48-907D-DF78EA2CFC47}|vcproj\\core.vcxproj|solutionrelative:core\\core.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BC8F17F-EE5C-439C-92D4-87BDA183150A}|vcproj\\win_runtime.vcxproj|C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\runtime\\core.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8BC8F17F-EE5C-439C-92D4-87BDA183150A}|vcproj\\win_runtime.vcxproj|solutionrelative:runtime\\core.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\Directory.Build.props||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Directory.Build.props||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\vcproj\\gen_inc.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vcproj\\gen_inc.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 325,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 69,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "build-release.props",
+              "DocumentMoniker": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\vcproj\\build-release.props",
+              "RelativeDocumentMoniker": "vcproj\\build-release.props",
+              "ToolTip": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\vcproj\\build-release.props",
+              "RelativeToolTip": "vcproj\\build-release.props",
+              "ViewState": "AgIAAAYAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-04-19T22:25:14.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tasks.md",
+              "DocumentMoniker": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\.github\\upgrades\\tasks.md",
+              "RelativeDocumentMoniker": ".github\\upgrades\\tasks.md",
+              "ToolTip": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\.github\\upgrades\\tasks.md",
+              "RelativeToolTip": ".github\\upgrades\\tasks.md",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-12T03:43:02.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VmExecutor.cs",
+              "DocumentMoniker": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\RefVm\\VmExecutor.cs",
+              "RelativeDocumentMoniker": "runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\RefVm\\VmExecutor.cs",
+              "ToolTip": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\RefVm\\VmExecutor.cs",
+              "RelativeToolTip": "runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\RefVm\\VmExecutor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwFEdAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T06:04:21.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "core.cc",
+              "DocumentMoniker": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\runtime\\core.cc",
+              "RelativeDocumentMoniker": "runtime\\core.cc",
+              "ToolTip": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\runtime\\core.cc",
+              "RelativeToolTip": "runtime\\core.cc",
+              "ViewState": "AgIAAE4FAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-19T22:27:14.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "core.h",
+              "DocumentMoniker": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\core\\core.h",
+              "RelativeDocumentMoniker": "core\\core.h",
+              "ToolTip": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\core\\core.h",
+              "RelativeToolTip": "core\\core.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-19T22:26:40.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LicensingManagerTests.cs",
+              "DocumentMoniker": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\LicensingManagerTests.cs",
+              "RelativeDocumentMoniker": "runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\LicensingManagerTests.cs",
+              "ToolTip": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\LicensingManagerTests.cs",
+              "RelativeToolTip": "runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\LicensingManagerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwHkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T04:31:00.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VMProtect.Netcore.csproj",
+              "DocumentMoniker": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\runtime\\VMProtect.Runtime\\VMProtect.Netcore.csproj",
+              "RelativeDocumentMoniker": "runtime\\VMProtect.Runtime\\VMProtect.Netcore.csproj",
+              "ToolTip": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\runtime\\VMProtect.Runtime\\VMProtect.Netcore.csproj",
+              "RelativeToolTip": "runtime\\VMProtect.Runtime\\VMProtect.Netcore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAABBwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-12T04:07:08.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitTestProject.csproj",
+              "DocumentMoniker": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\UnitTestProject.csproj",
+              "RelativeDocumentMoniker": "runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\UnitTestProject.csproj",
+              "ToolTip": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\UnitTestProject.csproj",
+              "RelativeToolTip": "runtime\\VMProtect.Runtime\\Tests\\UnitTestProject\\UnitTestProject.csproj",
+              "ViewState": "AgIAAAUAAAAAAAAAAABBwF4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-12T04:07:08.049Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Directory.Build.props",
+              "DocumentMoniker": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\Directory.Build.props",
+              "RelativeDocumentMoniker": "Directory.Build.props",
+              "ToolTip": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\Directory.Build.props",
+              "RelativeToolTip": "Directory.Build.props",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-04-19T22:46:27.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "gen_inc.props",
+              "DocumentMoniker": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\vcproj\\gen_inc.props",
+              "RelativeDocumentMoniker": "vcproj\\gen_inc.props",
+              "ToolTip": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\vcproj\\gen_inc.props",
+              "RelativeToolTip": "vcproj\\gen_inc.props",
+              "ViewState": "AgIAAAcAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-04-19T23:12:41.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HardwareID.cs",
+              "DocumentMoniker": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\runtime\\VMProtect.Runtime\\HardwareID.cs",
+              "RelativeDocumentMoniker": "runtime\\VMProtect.Runtime\\HardwareID.cs",
+              "ToolTip": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\runtime\\VMProtect.Runtime\\HardwareID.cs",
+              "RelativeToolTip": "runtime\\VMProtect.Runtime\\HardwareID.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAkBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T04:30:47.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LicensingManager.cs",
+              "DocumentMoniker": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\runtime\\VMProtect.Runtime\\LicensingManager.cs",
+              "RelativeDocumentMoniker": "runtime\\VMProtect.Runtime\\LicensingManager.cs",
+              "ToolTip": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\runtime\\VMProtect.Runtime\\LicensingManager.cs",
+              "RelativeToolTip": "runtime\\VMProtect.Runtime\\LicensingManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T04:30:59.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ipn_tool.csproj",
+              "DocumentMoniker": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\utils\\ipn_tool\\ipn_tool.csproj",
+              "RelativeDocumentMoniker": "utils\\ipn_tool\\ipn_tool.csproj",
+              "ToolTip": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\utils\\ipn_tool\\ipn_tool.csproj",
+              "RelativeToolTip": "utils\\ipn_tool\\ipn_tool.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-12T04:07:08.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VMProtect.Runtime.csproj",
+              "DocumentMoniker": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\runtime\\VMProtect.Runtime\\VMProtect.Runtime.csproj",
+              "RelativeDocumentMoniker": "runtime\\VMProtect.Runtime\\VMProtect.Runtime.csproj",
+              "ToolTip": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\runtime\\VMProtect.Runtime\\VMProtect.Runtime.csproj",
+              "RelativeToolTip": "runtime\\VMProtect.Runtime\\VMProtect.Runtime.csproj",
+              "ViewState": "AgIAAAUAAAAAAAAAAABBwD0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-12T04:07:03.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VMProtect.SDK.csproj",
+              "DocumentMoniker": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\sdk\\VMProtect.SDK\\VMProtect.SDK.csproj",
+              "RelativeDocumentMoniker": "sdk\\VMProtect.SDK\\VMProtect.SDK.csproj",
+              "ToolTip": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\sdk\\VMProtect.SDK\\VMProtect.SDK.csproj",
+              "RelativeToolTip": "sdk\\VMProtect.SDK\\VMProtect.SDK.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-12T04:07:08.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "plan.md",
+              "DocumentMoniker": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\.github\\upgrades\\plan.md",
+              "RelativeDocumentMoniker": ".github\\upgrades\\plan.md",
+              "ToolTip": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\.github\\upgrades\\plan.md",
+              "RelativeToolTip": ".github\\upgrades\\plan.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-12T03:22:41.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "assessment.md",
+              "DocumentMoniker": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\.github\\upgrades\\assessment.md",
+              "RelativeDocumentMoniker": ".github\\upgrades\\assessment.md",
+              "ToolTip": "C:\\Users\\m4nst\\Documents\\vmprotect-3.5.1-master\\.github\\upgrades\\assessment.md",
+              "RelativeToolTip": ".github\\upgrades\\assessment.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-12T03:11:43.838Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

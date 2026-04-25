@@ -1,0 +1,80 @@
+﻿# .NET 10 Modernization Plan for `vmprotect.sln`
+
+## Table of Contents
+- [1. Executive Summary](#1-executive-summary)
+- [2. Migration Strategy](#2-migration-strategy)
+- [3. Detailed Dependency Analysis](#3-detailed-dependency-analysis)
+- [4. Project-by-Project Plans](#4-project-by-project-plans)
+- [5. Package Update Reference](#5-package-update-reference)
+- [6. Breaking Changes Catalog](#6-breaking-changes-catalog)
+- [7. Testing & Validation Strategy](#7-testing--validation-strategy)
+- [8. Risk Management](#8-risk-management)
+- [9. Complexity & Effort Assessment](#9-complexity--effort-assessment)
+- [10. Source Control Strategy](#10-source-control-strategy)
+- [11. Success Criteria](#11-success-criteria)
+
+## 1. Executive Summary
+### Scenario
+Upgrade solution `C:\Users\m4nst\Documents\vmprotect-3.5.1-master\vmprotect.sln` to .NET 10 where applicable, while keeping native C++ projects buildable in the same coordinated modernization window.
+
+### Selected Strategy
+**All-At-Once Strategy** — all eligible .NET projects are upgraded in a single coordinated/atomic operation (no per-project upgrade waves).
+
+### High-Level Metrics (from assessment)
+- Total projects: **16**
+- .NET projects requiring framework modernization: **5**
+- Native C++ projects in solution: **11**
+- Total LOC: **54,789**
+- Files with incidents: **20**
+- Total migration issues: **123**
+- NuGet packages discovered by assessment: **0** (no package-version upgrade matrix generated)
+- API findings: **104 source-incompatible**, **10 behavioral changes**
+
+### Complexity Classification
+**Complex solution** (16 projects, >50k LOC, mixed technology stack: `.csproj` + `.vcxproj`, legacy target frameworks including `net20`/`net40`/`net48`).
+
+### Planning Approach Used
+Despite complex size, execution model remains **All-At-Once** per selected strategy. Risk is reduced through strong prerequisites, explicit dependency ordering, and a single bounded atomic upgrade pass for all .NET projects.
+
+### Critical Findings for Planning
+- No NuGet vulnerability list was produced by assessment.
+- Major migration pressure is API compatibility (legacy crypto, `System.Data.SqlClient`, serialization behaviors).
+- Build environment blockers from current state must be treated as prerequisites for full solution validation:
+  - Missing Qt headers (`QtCore/QMap`)
+  - Missing Windows SDK headers (`windows.h`)
+  - Missing toolsets (`v90`, `v141_xp`)
+  - Missing `.NET Framework 3.5 SP1` for `net20` legacy target
+
+### Iteration Summary
+Plan generated in structured iterations: skeleton → discovery/classification → dependency/strategy foundation → full project detailing → finalization of source control and success criteria.
+
+
+## 2. Migration Strategy
+[To be filled]
+
+## 3. Detailed Dependency Analysis
+[To be filled]
+
+## 4. Project-by-Project Plans
+[To be filled]
+
+## 5. Package Update Reference
+[To be filled]
+
+## 6. Breaking Changes Catalog
+[To be filled]
+
+## 7. Testing & Validation Strategy
+[To be filled]
+
+## 8. Risk Management
+[To be filled]
+
+## 9. Complexity & Effort Assessment
+[To be filled]
+
+## 10. Source Control Strategy
+[To be filled]
+
+## 11. Success Criteria
+[To be filled]

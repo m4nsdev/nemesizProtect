@@ -1,0 +1,4 @@
+^C:\USERS\M4NST\DOCUMENTS\VMPROTECT-3.5.1-MASTER\THIRD-PARTY\LIBFFI\SRC\X86\WIN64.S
+cl.exe /EP /I . /I C:\Users\m4nst\Documents\vmprotect-3.5.1-master\third-party\libffi\win32\vc14_x64\libffi\..\.. /I C:\Users\m4nst\Documents\vmprotect-3.5.1-master\third-party\libffi\win32\vc14_x64\libffi\..\..\include /I C:\Users\m4nst\Documents\vmprotect-3.5.1-master\third-party\libffi\win32\vc14_x64\libffi\..\..\src\x86 C:\Users\m4nst\Documents\vmprotect-3.5.1-master\third-party\libffi\win32\vc14_x64\libffi\..\..\src\x86\win64.S > Release/win64_plain.asm
+
+ml64.exe /c /Cx /Fo Release/win64.obj Release/win64_plain.asm
